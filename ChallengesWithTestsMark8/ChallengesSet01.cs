@@ -18,20 +18,60 @@ namespace ChallengesWithTestsMark8
 
         public double Subtract(double minuend, double subtrahend)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+
+            return Math.Min(minuend, subtrahend);   
+
+
         }
 
         public int Add(int number1, int number2)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+
+            return number1 + number2;
         }
 
         public int GetSmallestNumber(int number1, int number2)
         {
-            throw new NotImplementedException();
-        }
+            //throw new NotImplementedException();
 
-        public long Multiply(long factor1, long factor2)
+
+            if (number1 < number2) 
+            {
+                return number1;
+            }
+
+            else 
+            }
+
+            return number2;
+
+            }
+
+        
+
+
+        static void Main(string[] args)
+        {
+            smallest(100, 50, 25);
+            smallest(50, 50, 25);
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    public long Multiply(long factor1, long factor2)
         {
             throw new NotImplementedException();
         }
